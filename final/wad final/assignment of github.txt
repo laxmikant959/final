@@ -1,0 +1,37 @@
+
+PS C:\Users\admin\Local Settings\Desktop\wad2> git init
+Initialized empty Git repository in C:/Users/admin/AppData/Local/Desktop/wad2/.git/
+PS C:\Users\admin\Local Settings\Desktop\wad2> mkdir pra2
+
+
+    Directory: C:\Users\admin\Local Settings\Desktop\wad2
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----        08/05/2024   2:24 AM            pra2
+
+
+PS C:\Users\admin\Local Settings\Desktop\wad2> git add .
+PS C:\Users\admin\Local Settings\Desktop\wad2> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+PS C:\Users\admin\Local Settings\Desktop\wad2> git remote add origin https://github.com/laxmikant959/assignment2.git
+
+PS C:\Users\admin\Local Settings\Desktop\wad2> git config --global  user.email "borselaxmikant62@gmail.com"
+PS C:\Users\admin\Local Settings\Desktop\wad2> git config --global  user.name "laxmikant959"
+PS C:\Users\admin\Local Settings\Desktop\wad2> git commit -m "first commit"
+[master (root-commit) 695d6ab] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+PS C:\Users\admin\Local Settings\Desktop\wad2> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/laxmikant959/assignment2.git'
+PS C:\Users\admin\Local Settings\Desktop\wad2> git push -u origin master
+fatal: User cancelled dialog.
